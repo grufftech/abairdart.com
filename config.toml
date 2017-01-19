@@ -1,0 +1,46 @@
+# Site settings
+baseurl = "https://abairdart.com/"
+basename = "Alexis Baird"
+languageCode = "en-us"
+title = "Alexis Baird / artist"
+googleAnalytics = ""
+enableRobotsTXT = false
+disableRSS = true
+disableSitemap = true
+
+[params]
+name = "Alexis Baird"
+description = ""
+
+# Home section
+[params.home]
+id = "home"
+title = "Alexis Baird"
+subtitle = "Artist"
+image = "/assets/img/home.jpg"
+imageAlt = "abairdart"
+imagePosition = "center center"
+
+# 404 page
+[params.page404]
+id = "page404"
+title = "<i class=\"icon fa-exclamation-circle\"></i> 404: Page Not Found"
+subtitle = "We're sorry, but that page can't be found <i class=\"icon fa-frown-o\"></i>"
+image = "/assets/img/404.jpg"
+imageAlt = "404: Page Not Found"
+imagePosition = "center center"
+
+# Footer section
+[params.footer]
+text = "Website &copy; Copyright 2012-XXXX [Gruff Technology LLC.](http://gruff.tech) All rights reserved. Powered by [Hugo](//gohugo.io). [[source]](//github.com/grufftech/abairdart.com)"
+
+# Social icons section
+[[params.social]]
+title = "Email"
+icon = "fa-envelope"
+link = "mailto:alrexbaird@gmail.com"
+
+[[params.social]]
+title = "Instagram"
+icon = "fa-instagram"
+link = "https://instagram.com/abairdart"

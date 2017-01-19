@@ -1,0 +1,7 @@
+<nav id="nav">
+  <ul class="actions vertical special spinY">
+    {{ range .Site.Menus.main }}
+      {{ partial "button" (dict "href" (delimit (slice "#" .URL) "") "label" .Name) }}
+    {{ end }}
+  </ul>
+</nav>
